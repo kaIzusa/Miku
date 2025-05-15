@@ -1,0 +1,9 @@
+.sign .left {
+    width: 65%;
+}
+.sign .right {
+    width: 35%;
+    background-image: url("/img/img2.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}

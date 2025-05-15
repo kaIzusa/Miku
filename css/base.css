@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: linear-gradient(120deg, #dadada,#27546a);
+    z-index: -2;
+}
+::selection {
+    color: #27546a;
+    background-color: #ddd;
+}
+.logn,.sign,.find {
+    margin: 100px 400px;
+    position: absolute;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* transform: translate(-50%,100px); */
+    display: flex;
+    height: 400px;
+    width: 800px;
+    border-radius: 15px;
+}
+.left,.right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left {
+    border-radius: 15px 0px 0px 15px;
+}
+.right {
+    border-radius: 0px 15px 15px 0px;
+}

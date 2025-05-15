@@ -1,0 +1,9 @@
+.logn .left {
+    width: 35%;
+    background-image: url("/img/img1.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+.logn .right {
+    width: 65%;
+}

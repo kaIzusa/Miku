@@ -1,0 +1,9 @@
+.find .left {
+    width: 35%;
+    background-image: url("/img/img3.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+.find .right {
+    width: 65%;
+}
